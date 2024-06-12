@@ -137,12 +137,14 @@ header h1 {
   background-color: #f0f0f0;
   width: 100%;
   opacity: 0;
+  display: none;
   height: 0;
   transition: height 0.5s ease, opacity 0.5s ease;
 }
 .mobile-meniu-body.open {
   height: auto;
   opacity: 1;
+  display: block;
 }
 .mobile-meniu-body .meniu {
   width: 100%;
