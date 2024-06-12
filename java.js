@@ -121,3 +121,7 @@ document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("scroll", infiniteScroll);
 wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutID));
 wrapper.addEventListener("mouseleave", autoPlay);
+
+function submitForm() {
+  document.getElementById("myForm").submit();
+}
