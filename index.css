@@ -1229,7 +1229,7 @@ footer .col2 a:hover {
 }
 @media (max-width: 650px) {
   .breadcrumb-item {
-    font-size: 1.8em;
+    font-size: 1.4em;
     margin-left: 16px;
   }
   .breadcrumb-div {
