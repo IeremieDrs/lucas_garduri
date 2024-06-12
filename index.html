@@ -158,7 +158,15 @@
 
     <div class="video-description-div">
       <div class="video-div">
-        <video id="myVideo" loop muted>
+        <video
+          id="myVideo"
+          controls="controls"
+          controls
+          preload="auto"
+          loop
+          muted
+          playsinline
+        >
           <source src="video.mp4" type="video/mp4" />
           <source src="video.webm" />
           This browser does not support HTML5 audio
