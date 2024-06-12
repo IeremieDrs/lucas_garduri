@@ -158,7 +158,7 @@
 
     <div class="video-description-div">
       <div class="video-div">
-        <video id="myVideo" autoplay loop muted controls>
+        <video id="myVideo" loop muted>
           <source src="video.mp4" type="video/mp4" />
           <source src="video.webm" />
           This browser does not support HTML5 audio
@@ -468,6 +468,12 @@
     <script src="java.js" defer>
             var video = document.getElementById("myVideo");
       video.playbackRate = 1.5;
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", (event) => {
+        var video = document.getElementById("myVideo");
+        video.play();
+      });
     </script>
   </body>
 </html>
