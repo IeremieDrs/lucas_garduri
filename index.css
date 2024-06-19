@@ -12,6 +12,9 @@ body {
   background-color: #f4f4f4;
   text-align: center;
 }
+.first_h1 {
+  display: none;
+}
 
 header {
   display: flex;
