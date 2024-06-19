@@ -7,4 +7,4 @@ Crawl-delay: 10
 Disallow: /cgi-bin/
 Disallow: /index.css/
 Disallow: /java.js/
-Sitemap: https://garduriludwik.ro/sitemap.hml
+Sitemap: https://garduriludwik.ro/sitemap.xml
