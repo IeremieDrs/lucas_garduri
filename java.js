@@ -125,3 +125,7 @@ wrapper.addEventListener("mouseleave", autoPlay);
 function submitForm() {
   document.getElementById("myForm").submit();
 }
+
+document.querySelectorAll('a[target="_blank"]').forEach(function (anchor) {
+  anchor.setAttribute("rel", "noopener noreferrer");
+});
