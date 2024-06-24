@@ -134,3 +134,7 @@ wrapper.addEventListener("mouseleave", autoPlay);
 function submitForm() {
   document.getElementById("myForm").submit();
 }
+
+document.getElementById("logoImg").addEventListener("click", function () {
+  window.location.href = "/index.html";
+});

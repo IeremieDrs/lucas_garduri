@@ -15,6 +15,16 @@ body {
 .first_h1 {
   display: none;
 }
+.mobileLink {
+  height: 70px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.pcLink {
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 0px;
+}
 
 header {
   display: flex;
@@ -34,7 +44,8 @@ header h1 {
 .logo-meniu img {
   height: 70px;
   width: auto;
-  padding: 6px;
+  padding: 0px;
+  margin-bottom: 20px;
 }
 .pc-meniu {
   height: 150px;
@@ -1233,6 +1244,10 @@ footer .col2 a:hover {
   }
 }
 @media (max-width: 650px) {
+  .mobileLink img {
+    height: 60px;
+    margin-top: 5px;
+  }
   .breadcrumb-item {
     font-size: 1.4em;
     margin-left: 16px;
