@@ -43,6 +43,14 @@ function checkScreenWidth() {
 checkScreenWidth();
 window.addEventListener("resize", checkScreenWidth);
 
+document.addEventListener("scroll", function () {
+  if (window.scrollY > 0) {
+    meniu.classList.remove("open");
+    x_mark.style.display = "none";
+    hamburger.style.display = "block";
+  }
+});
+
 // SLIDER
 const wrapper = document.querySelector(".wrapper");
 const carousel = document.querySelector(".carousel");
