@@ -2,11 +2,6 @@ document.querySelectorAll('a[target="_blank"]').forEach(function (anchor) {
   anchor.setAttribute("rel", "noopener noreferrer");
 });
 
-const images = document.querySelectorAll("img");
-images.forEach((img) => {
-  img.setAttribute("loading", "lazy");
-});
-
 let meniu = document.getElementById("mobile-meniu-body");
 let x_mark = document.getElementById("x-mark");
 let hamburger = document.getElementById("open-mark");
